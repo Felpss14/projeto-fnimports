@@ -3,6 +3,8 @@
 :root {
     --cor1: #ffffff;
     --cor2: #000000;
+    --cor3: #f8f8f8;
+    --cor4: #3b3b3b;
 
     --fonte1: Arial, Helvetica, sans-serif;
 }
@@ -15,6 +17,44 @@
 
 body {
     font-family: var(--fonte1);
-    
+    background-color: var(--cor3);
+    color: var(--cor2);
 }
 
+header {
+    background-color: var(--cor2);
+}
+
+header > h1, p{
+    text-align: center;
+    padding: 10px;
+}
+
+nav > ul {
+    background-color: var(--cor1);
+    display: flex;
+    padding: 0.5rem;
+    list-style: none;
+    justify-content: center;
+    gap: 2rem;
+}
+
+a {
+    color: var(--cor2);
+    text-decoration: none;
+
+}
+
+.fn {
+    color: var(--cor1);
+}
+
+a:hover {
+    background-color: var(--cor4);
+}
+
+main > p {
+    text-align: justify;
+    margin: 1.5rem;
+    line-height: 1.3rem;
+}
