@@ -7,6 +7,8 @@
     --cor4: #3b3b3b;
 
     --fonte1: Arial, Helvetica, sans-serif;
+    --fonte2: Manufacturing Consent;
+    --fonte3: Grenze Gotisch;
 }
 
 * {
@@ -16,9 +18,13 @@
 }
 
 body {
-    font-family: var(--fonte1);
+    font-family: var(--fonte3);
     background-color: var(--cor3);
     color: var(--cor2);
+}
+
+title {
+    
 }
 
 header {
@@ -50,11 +56,16 @@ a {
 }
 
 a:hover {
-    background-color: var(--cor4);
+    padding: 5px;
+    background-color: var(--cor2);
+    color: var(--cor1);
 }
 
 main > p {
-    text-align: justify;
-    margin: 1.5rem;
-    line-height: 1.3rem;
+    font-family: var(--fonte2);
+    font-size: 25px;
+}
+
+img {
+    padding: 40px;
 }
