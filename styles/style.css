@@ -99,7 +99,7 @@ div > h1 {
 
 img {
     padding: 40px;
-    border: 2px solid black;
+    
 }
 
 .img {
@@ -111,4 +111,8 @@ img {
 
 .imgcard {
     text-align: center;
+    border: 2px solid black;
+    width: 350px;
+    margin: auto;
+    
 }
